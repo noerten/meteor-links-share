@@ -1,14 +1,5 @@
 
 	// accounts
-
-
-
-
-
-
-
-
-
 	// helper function that returns all available websites
 	Template.website_list.helpers({
 		websites:function(){
@@ -16,10 +7,14 @@
 		}
 	});
 
-
-	/////
-	// template events 
-	/////
+	// Template.website_item.helpers({
+	// 	votes: function(event) {
+	// 		var site_id = this._id;
+	// 		var upvote = Websites.findOne({_id:site_id}).upvotes;
+    //
+    //how to get current item in helper meteor from db
+	// 		}
+	// 	});
 
 	Template.website_item.events({
 		"click .js-upvote":function(e) {
@@ -35,7 +30,7 @@
 
 	//adding website
 	Template.website_form.events({
-		"click .js-toggle-website-form":function(event){
+		"click .js-toggle-website-form":function(){
 			$("#website_form").toggle('slow');
 		}, 
 		"submit .js-save-website-form":function(event){
@@ -52,10 +47,11 @@
 					createdOn: new Date()
 				});
 			}
+			console.log(url);
 			$(".js-toggle-website-form").click();
-			target.url.value = '';
-			target.title.value = '';
-			target.description.value = '';
+			event.target.url.value = '';
+			event.target.title.value = '';
+			event.target.description.value = '';
 			return false;// stop the form submit from reloading the page
 
 		}
