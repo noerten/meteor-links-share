@@ -7,14 +7,13 @@
 		}
 	});
 
-	// Template.website_item.helpers({
-	// 	votes: function() {
-     //
-	// 	 	var upvote = Websites.findOne({_id:this._id}).upvotes;
-     //        var downvote = Websites.findOne({_id:this._id}).downvotes;
-     //        return (upvote-downvote);
-	// 		}
-	// 	});
+    //formatting date
+    Template.registerHelper('formatDate', function(date) {
+        var m_names = ["January", "February", "March",
+            "April", "May", "June", "July", "August", "September",
+            "October", "November", "December"];
+        return (m_names[date.getMonth()] + " " + date.getDate() + ", " + date.getFullYear());
+    });
 
 	Template.website_item.events({
 		"click .js-upvote":function(e) {
