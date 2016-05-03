@@ -11,7 +11,8 @@
                 createdOn:new Date(),
                 voters: [],
                 upvotes: 0,
-                downvotes: 0
+                downvotes: 0,
+                votes: 0
             });
             Websites.insert({
                 title:"University of London",
@@ -20,7 +21,8 @@
                 createdOn:new Date(),
                 voters: [],
                 upvotes: 0,
-                downvotes: 0
+                downvotes: 0,
+                votes: 0
             });
             Websites.insert({
                 title:"Coursera",
@@ -29,7 +31,8 @@
                 createdOn:new Date(),
                 voters: [],
                 upvotes: 0,
-                downvotes: 0
+                downvotes: 0,
+                votes: 0
             });
             Websites.insert({
                 title:"Google",
@@ -38,7 +41,8 @@
                 createdOn:new Date(),
                 voters: [],
                 upvotes: 0,
-                downvotes: 0
+                downvotes: 0,
+                votes: 0
             });
         }
     });

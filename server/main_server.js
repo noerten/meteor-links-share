@@ -9,7 +9,8 @@ Meteor.methods({
             throw new Meteor.Error(422, 'You have already voted');
         Websites.update(website._id, {
             $addToSet: {voters: user._id},
-            $inc: {upvotes: 1}
+            $inc: {upvotes: 1, votes: 1}
+
         });
     },
     downvote: function(websiteId) {
@@ -21,7 +22,8 @@ Meteor.methods({
             throw new Meteor.Error(422, 'You have already voted');
         Websites.update(website._id, {
             $addToSet: {voters: user._id},
-            $inc: {downvotes: 1}
+            $inc: {downvotes: 1, votes: -1}
+
         });
     }
     });

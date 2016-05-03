@@ -3,16 +3,16 @@
 	// helper function that returns all available websites
 	Template.website_list.helpers({
 		websites:function(){
-			return Websites.find({});
+			return Websites.find({}, {sort:{votes:-1}});
 		}
 	});
 
 	// Template.website_item.helpers({
-	// 	votes: function(event) {
-	// 		var site_id = this._id;
-	// 		var upvote = Websites.findOne({_id:site_id}).upvotes;
-    //
-    //how to get current item in helper meteor from db
+	// 	votes: function() {
+     //
+	// 	 	var upvote = Websites.findOne({_id:this._id}).upvotes;
+     //        var downvote = Websites.findOne({_id:this._id}).downvotes;
+     //        return (upvote-downvote);
 	// 		}
 	// 	});
 
@@ -44,8 +44,11 @@
 					title: title,
 					url: url,
 					description: description,
-					createdOn: new Date()
-				});
+					createdOn: new Date(),
+                    upvotes: 0,
+                    downvotes: 0,
+                    votes: 0
+                });
 			}
 			console.log(url);
 			$(".js-toggle-website-form").click();
