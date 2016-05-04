@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8668571-2d88-458b-b42f-cba19eb4a2c0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/packages" afterPath="$PROJECT_DIR$/.meteor/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.meteor/versions" afterPath="$PROJECT_DIR$/.meteor/versions" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/siteace.html" afterPath="$PROJECT_DIR$/client/siteace.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client/siteace.js" afterPath="$PROJECT_DIR$/client/siteace.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/startup.js" afterPath="$PROJECT_DIR$/server/startup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/main_server.js" afterPath="$PROJECT_DIR$/server/main_server.js" />
     </list>
     <ignored path="siteace.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,12 +27,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="siteace.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="siteace.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/siteace.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="403">
+              <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+              <folding>
+                <element signature="e#2392#2485#0" expanded="false" />
+                <element signature="e#2519#2971#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -38,11 +43,16 @@
       <file leaf-file-name="siteace.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/siteace.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+            <state relative-caret-position="247">
+              <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
               <folding>
                 <element signature="n#head#0;n#!!top" expanded="false" />
                 <element signature="n#body#0;n#!!top" expanded="false" />
+                <element signature="n#template#5;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#form#0;n#template#5;n#!!top" expanded="true" />
+                <element signature="n#template#6;n#!!top" expanded="false" />
+                <element signature="n#template#7;n#!!top" expanded="false" />
+                <element signature="n#template#8;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -51,18 +61,18 @@
       <file leaf-file-name="main_server.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/main_server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="403">
+              <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="startup.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="startup.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server/startup.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="120">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -106,11 +116,11 @@
         <option value="$PROJECT_DIR$/siteace.js" />
         <option value="$PROJECT_DIR$/lib/config/at_config.js" />
         <option value="$PROJECT_DIR$/client/siteace.css" />
-        <option value="$PROJECT_DIR$/server/main_server.js" />
         <option value="$PROJECT_DIR$/lib/collections.js" />
-        <option value="$PROJECT_DIR$/client/siteace.js" />
-        <option value="$PROJECT_DIR$/client/siteace.html" />
         <option value="$PROJECT_DIR$/server/startup.js" />
+        <option value="$PROJECT_DIR$/server/main_server.js" />
+        <option value="$PROJECT_DIR$/client/siteace.html" />
+        <option value="$PROJECT_DIR$/client/siteace.js" />
       </list>
     </option>
   </component>
@@ -120,10 +130,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="550" />
+    <option name="x" value="403" />
     <option name="y" value="52" />
-    <option name="width" value="817" />
-    <option name="height" value="716" />
+    <option name="width" value="964" />
+    <option name="height" value="686" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -330,18 +340,18 @@
       <workItem from="1462033498189" duration="11987000" />
       <workItem from="1462112832594" duration="5143000" />
       <workItem from="1462214924858" duration="6799000" />
-      <workItem from="1462300150057" duration="13296000" />
+      <workItem from="1462300150057" duration="18502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37225000" />
+    <option name="totallyTimeSpent" value="42431000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="550" y="52" width="817" height="716" extended-state="4" />
+    <frame x="403" y="52" width="964" height="686" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2239902" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18983403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32970452" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -379,7 +389,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="e#2392#2485#0" expanded="false" />
+            <element signature="e#2519#2971#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -398,6 +411,11 @@
           <folding>
             <element signature="n#head#0;n#!!top" expanded="false" />
             <element signature="n#body#0;n#!!top" expanded="false" />
+            <element signature="n#template#5;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#form#0;n#template#5;n#!!top" expanded="true" />
+            <element signature="n#template#6;n#!!top" expanded="false" />
+            <element signature="n#template#7;n#!!top" expanded="false" />
+            <element signature="n#template#8;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -430,7 +448,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2392#2485#0" expanded="false" />
+            <element signature="e#2519#2971#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -456,10 +477,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/main_server.js">
+    <entry file="file://$PROJECT_DIR$/server/startup.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -472,30 +493,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/siteace.js">
+    <entry file="file://$PROJECT_DIR$/server/main_server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="403">
+          <caret line="51" column="29" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/siteace.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        <state relative-caret-position="247">
+          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
           <folding>
             <element signature="n#head#0;n#!!top" expanded="false" />
             <element signature="n#body#0;n#!!top" expanded="false" />
+            <element signature="n#template#5;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#0;n#form#0;n#template#5;n#!!top" expanded="true" />
+            <element signature="n#template#6;n#!!top" expanded="false" />
+            <element signature="n#template#7;n#!!top" expanded="false" />
+            <element signature="n#template#8;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/startup.js">
+    <entry file="file://$PROJECT_DIR$/client/siteace.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="403">
+          <caret line="97" column="45" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+          <folding>
+            <element signature="e#2392#2485#0" expanded="false" />
+            <element signature="e#2519#2971#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

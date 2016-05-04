@@ -27,3 +27,33 @@ Meteor.methods({
         });
     }
     });
+
+
+Meteor.publish('websites', function() {
+    return Websites.find();
+});
+
+Meteor.publish('comments', function() {
+    return Comments.find();
+});
+
+Meteor.methods({
+    comment: function(commentAttributes) {
+        var user = Meteor.user();
+        var website = Websites.findOne(commentAttributes.postId);
+        // ensure the user is logged in
+        // if (!user)
+        //     throw new Meteor.Error(401, "You need to login to make comments");
+        // if (!commentAttributes.body)
+        //     throw new Meteor.Error(401, 'Please write some content');
+        // if (!post)
+        //     throw new Meteor.Error(401, 'You must comment on a post');
+        comment = _.extend(_.pick(commentAttributes, 'postId', 'body'), {
+            userId: user._id,
+            author: user.emails[0].address,
+            submitted: new Date().getTime()
+        });
+
+        return Comments.insert(comment);
+    }
+});
