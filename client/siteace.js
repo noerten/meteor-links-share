@@ -10,7 +10,10 @@ Router.route('/', function () {
     this.render('main_page', {
         to:"main"
     });
+}, {
+    name: 'main_page'
 });
+
 
 
 
