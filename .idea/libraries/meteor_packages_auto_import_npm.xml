@@ -184,8 +184,13 @@
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.7/npm/node_modules/faye-websocket/lib/faye/websocket/api.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.7/npm/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.7/npm/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/json.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/urlencoded.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/raw.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/text.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/aggregation_cursor.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.7/npm/node_modules/permessage-deflate/lib/permessage_deflate.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/read.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.7/npm/node_modules/permessage-deflate/lib/common.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/mongo_client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.7/npm/node_modules/permessage-deflate/lib/client_session.js" />
@@ -199,6 +204,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/cursor.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/utils.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/db.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/index.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/command_cursor.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/auth/mongodb_x509.js" />
         <item url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/auth/mongodb_cr.js" />
@@ -404,8 +410,13 @@
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.7/npm/node_modules/faye-websocket/lib/faye/websocket/api.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.7/npm/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.7/npm/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/json.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/urlencoded.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/raw.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/types/text.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/aggregation_cursor.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.7/npm/node_modules/permessage-deflate/lib/permessage_deflate.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/lib/read.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.7/npm/node_modules/permessage-deflate/lib/common.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/mongo_client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.7/npm/node_modules/permessage-deflate/lib/client_session.js" />
@@ -419,6 +430,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/cursor.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/utils.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/db.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/iron_router/1.0.12/npm/node_modules/body-parser/index.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/command_cursor.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/auth/mongodb_x509.js" />
       <root url="file://$USER_HOME$/.meteor/packages/npm-mongo/1.4.43/npm/node_modules/mongodb/lib/mongodb/auth/mongodb_cr.js" />

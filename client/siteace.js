@@ -1,4 +1,37 @@
 
+Router.configure({
+    layoutTemplate: 'ApplicationLayout'
+});
+
+Router.route('/', function () {
+    this.render('navbar', {
+        to:"navbar"
+    });
+    this.render('main_page', {
+        to:"main"
+    });
+});
+
+
+
+
+Router.route('/:_id', function () {
+    this.render('navbar', {
+        to:"navbar"
+    });
+    this.render('one_website', {
+        to:"main",
+        data:function(){
+            return Websites.findOne({_id:this.params._id});
+        }
+    });
+}, {
+    name: 'one_site'
+});
+
+
+
+
 	// accounts
 	// helper function that returns all available websites
 	Template.website_list.helpers({
